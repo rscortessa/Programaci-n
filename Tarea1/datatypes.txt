@@ -1,0 +1,30 @@
+Tipos de Datos:
+En el siguiente archivo se encuentra la información acerca de los siguientes datos:
+*int
+*float
+*double
+*char
+1.int:Es una opción en la cual se define una variable cuyo valor es un numero entero.
+Este tipo de variables tiene un limite de almacenamiento dependendiendo de la plataforma, el compilador y el número de bits usado por palabra de memoria, en promedio suele estar entre -32768 y 32767.
+Hay varios tipos de variables como char, short int y long int cuya diferencia radica en el tamaño máximo que pueden contener y el espacio que ocupan.
+2.float:Es un tipo de variable el cual almacena números en formato de coma flotante, es decir contienen un valor de mantisa(parte fraccionaria de un número) y otro de exponente, los cuales codifican números decimales.
+los numeros se interpretan como m*(10)^e.
+float puede almacenar números entre -0.99*(10)^9 y 0.99*(10)^9 y números tan pequeños como 0.01*(10)^-9 y -0.01*(10)^-9.
+las variables de tipo float, tienen su fuerte en el orden de magnitud mas no en la precisión.
+3.double:Las variables de este tipo, al igual que float almacenan números en formato de coma flotante; mantisa y exponente, la diferencia con float es que double tiene una precisión mayor a costa de usar más memoria.
+No existe un tamaño predefinido para double, pero se puede asegurar que este es mayor o igual al del float.
+4.char:Es una opción la cual permite manejar ya sea números o caracteres alfabéticos; es decir es una opción de caracter alfanúmerico.
+el rango de valores de char normalmente va de -128 a +127 o de 0 a 255, los literales de tipo caracter se pueden usar como números.
+Hay varios tipos de char, entre ellos unsigned char y signed char; la diferencia entre ellos radica en su rango de valores.
+¿Cómo se declara una variable?
+Para declarar una variable se usa la siguiente sintaxis:
+variable [nombre de variable];En donde en la palabra "variable",se coloca la variable que se va a utilizar.
+Para asignarle un valor a la variable se usa:
+variable [nombre de variable]=x donde x es el valor que toma dependiendo de la variable utilizada.
+NOTA: para declarar una variable siempre se debe utilizar;al final de la linea.
+Referencias:
+-https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=899:tipos-de-datos-en-c-declarar-variables-enteras-int-long-o-decimal-float-double-char-inicializacion-cu00510f&catid=82&Itemid=210
+-http://es.ccm.net/faq/3169-las-variables-en-c#1-12-float
+-https://duglasm.wordpress.com/2012/07/20/las-variables-en-c/
+-http://www.learncpp.com/cpp-tutorial/13-a-first-look-at-variables-initialization-and-assignment/
+
