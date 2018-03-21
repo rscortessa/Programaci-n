@@ -1,0 +1,7 @@
+#Para hallar los puntos de corte de una función en gnuplot, lo primero que se hace es graficarla:
+f(X)=(función)
+luego se procede a dibujarla:
+plot f(x) w l lw 2 ,0
+luego achicamos el intervalo del dominio de la función.
+plot [a:b] f(x) w l lw 2, 0
+
